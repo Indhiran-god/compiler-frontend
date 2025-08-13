@@ -1,0 +1,93 @@
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.language-selector {
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.run-button {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.run-button:hover {
+  background-color: #45a049;
+}
+
+.run-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.editor-container {
+  margin-bottom: 20px;
+}
+
+.code-editor textarea {
+  width: 100%;
+  height: 300px;
+  padding: 10px;
+  font-family: 'Courier New', monospace;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.io-container {
+  display: flex;
+  gap: 20px;
+}
+
+.input-section, .output-section {
+  flex: 1;
+}
+
+.input-section textarea {
+  width: 100%;
+  height: 150px;
+  padding: 10px;
+  font-family: 'Courier New', monospace;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.output-section pre {
+  background-color: #f5f5f5;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  min-height: 150px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+h3 {
+  margin-top: 0;
+  color: #444;
+}
